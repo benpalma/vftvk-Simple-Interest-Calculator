@@ -1,71 +1,49 @@
 body {
   background-color: black;
   font-family: arial;
-  color: white;
+  color: black;
 }
 h1 {
   color: grey;
   font-family: verdana;
-}
+  text-align: center;
+  vertical-align: middle;
 
+}
 .maindiv {
-  background-color: #fff;
-  color: #000;
-  width: 500px;
+  background-color: white;
+  color: white;
+  width: 400px;
   height: auto;
   padding: 20px;
   border-radius: 25px;
   margin: auto;
-  text-align: left;
-
-  justify-content: center;
+  color: black;
+  display: inline-block;
 }
 
-.GetInfo {
-  width: 450px;
-  font-weight: 550;
-  margin-left: 90px;
-  font-size: 14px;
-  margin-bottom: 25px;
-}
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type="range"] {
-  -webkit-appearance: none !important;
-  background: rgba(216, 214, 214, 0.76);
-  height: 7px;
-  border-radius: 40px;
-  border: 0.2px solid;
-}
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none !important;
-  background-color: rgb(21, 101, 221);
-  height: 13px;
-  border-radius: 20px;
-  width: 13px;
+input[type=text,range]#years{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  padding: 5px 10px;
 }
 
-#principal {
-  margin-left: 56px;
-  margin-bottom: 15px;
-}
-#rate {
-  margin-left: 26px;
-  margin-bottom: 15px;
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  width: 150px;
 }
 
-#years {
-  margin-left: 30px;
-  margin-bottom: 16px;
+button[type=submit]:hover {
+  background-color: yellow;
+  align-text: center;
 }
-
 #result {
-  margin-bottom: 16px;
+  color: black;
 }
-
 .highlight {
-  background-color: #ffff00;
+  background-color:yellow;
+  padding:0.1em 0.2em;
 }
